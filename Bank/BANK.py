@@ -10,7 +10,7 @@ def checking_balance ( user_name, balance,deposits, expense_item, expense_amount
     deposits
     expense_item
     expense_amount
-ending_balance = (starting_balance ++ pay_check -- expenditure)
+ending_balance = (starting_balance + pay_check - expenditure)
 
 print('your final balance is ',ending_balance)
 
